@@ -1,0 +1,21 @@
+import React from "react";
+import { Typography } from "@mui/material";
+
+
+const LoginPageHeader = () => {
+    return (
+        <>
+            <Typography variant='h4' sx={{color:'white',textAlign:'center'}}>
+                Admin Login
+            </Typography>
+            <Typography variant='h5' sx={{ color: 'white' }}>
+                Welcome Back Admin!
+            </Typography>
+            <Typography sx={{ color: '#b9bbbe' }}>
+                We are happy to have you back!
+            </Typography>
+        </>
+    );
+}
+
+export default LoginPageHeader;
